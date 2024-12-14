@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C42B67A2-EF08-4A00-A448-7374084AD3A7}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCleanArchitecture.Application", "src\MyCleanArchitecture.Application\MyCleanArchitecture.Application.csproj", "{04B120A2-4486-414D-B47B-9CD47896B778}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCleanArchitecture.Domain", "src\MyCleanArchitecture.Domain\MyCleanArchitecture.Domain.csproj", "{97BE5C3F-F2CA-4411-B543-B3707B4AC6C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCleanArchitecture.Infrastructure", "src\MyCleanArchitecture.Infrastructure\MyCleanArchitecture.Infrastructure.csproj", "{2BDDFCEF-0AA3-4E6A-B2D6-1A618FCAF8E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCleanArchitecture.Api", "src\MyCleanArchitecture.Api\MyCleanArchitecture.Api.csproj", "{35529FE9-1BCF-42C9-93F1-B306A58C8736}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCleanArchitecture.Application.Tests", "tests\MyCleanArchitecture.Application.Tests\MyCleanArchitecture.Application.Tests.csproj", "{704691C1-7481-44C8-BB51-3CA802C838F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{12C841FE-17DC-40DA-BD1B-B67A7B0296C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7ED0D012-5A6E-4499-ADAC-FA9DFB75F349}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04B120A2-4486-414D-B47B-9CD47896B778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04B120A2-4486-414D-B47B-9CD47896B778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04B120A2-4486-414D-B47B-9CD47896B778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04B120A2-4486-414D-B47B-9CD47896B778}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97BE5C3F-F2CA-4411-B543-B3707B4AC6C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97BE5C3F-F2CA-4411-B543-B3707B4AC6C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97BE5C3F-F2CA-4411-B543-B3707B4AC6C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97BE5C3F-F2CA-4411-B543-B3707B4AC6C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BDDFCEF-0AA3-4E6A-B2D6-1A618FCAF8E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BDDFCEF-0AA3-4E6A-B2D6-1A618FCAF8E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BDDFCEF-0AA3-4E6A-B2D6-1A618FCAF8E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BDDFCEF-0AA3-4E6A-B2D6-1A618FCAF8E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35529FE9-1BCF-42C9-93F1-B306A58C8736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35529FE9-1BCF-42C9-93F1-B306A58C8736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35529FE9-1BCF-42C9-93F1-B306A58C8736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35529FE9-1BCF-42C9-93F1-B306A58C8736}.Release|Any CPU.Build.0 = Release|Any CPU
+		{704691C1-7481-44C8-BB51-3CA802C838F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{704691C1-7481-44C8-BB51-3CA802C838F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{704691C1-7481-44C8-BB51-3CA802C838F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{704691C1-7481-44C8-BB51-3CA802C838F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{04B120A2-4486-414D-B47B-9CD47896B778} = {12C841FE-17DC-40DA-BD1B-B67A7B0296C8}
+		{97BE5C3F-F2CA-4411-B543-B3707B4AC6C1} = {12C841FE-17DC-40DA-BD1B-B67A7B0296C8}
+		{2BDDFCEF-0AA3-4E6A-B2D6-1A618FCAF8E8} = {12C841FE-17DC-40DA-BD1B-B67A7B0296C8}
+		{35529FE9-1BCF-42C9-93F1-B306A58C8736} = {12C841FE-17DC-40DA-BD1B-B67A7B0296C8}
+		{704691C1-7481-44C8-BB51-3CA802C838F4} = {7ED0D012-5A6E-4499-ADAC-FA9DFB75F349}
+	EndGlobalSection
+EndGlobal
